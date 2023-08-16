@@ -1,0 +1,24 @@
+{
+  "name": "imdb-node-cli",
+  "version": "1.0.0",
+  "description": "A CLI for searching IMDB",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/sean-s14/imdb-node-cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "imdb",
+    "cli",
+    "node"
+  ],
+  "author": "Sean Stocker",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "jsdom": "^22.1.0"
+  }
+}
